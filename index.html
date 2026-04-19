@@ -51,7 +51,7 @@
 <body>
 <div class="container">
   <h1>Meal train for Colleen & Dena</h1>
-  <p class="subtitle">Apr 22 – May 16 · 2 meals per week · Sign up below!</p>
+  <p class="subtitle">Apr 21 – May 15 · 2 meals per week · Sign up below!</p>
 
   <div class="progress-bar"><div class="progress-fill" id="progress" style="width:0%"></div></div>
   <p class="summary" id="summary-text">Loading…</p>
@@ -77,10 +77,10 @@
 const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzs9qAdBIjNrWuaVWuaiJSiBHpZPLyrPoCqblhn0AMsRrQFTqQXSPsOVBVtKdzwBYFS/exec";
 
 const WEEKS = [
-  { label: "Week 1", dates: ["Tue, Apr 22", "Fri, Apr 25"] },
-  { label: "Week 2", dates: ["Tue, Apr 29", "Fri, May 2"] },
-  { label: "Week 3", dates: ["Tue, May 6",  "Fri, May 9"] },
-  { label: "Week 4", dates: ["Tue, May 13", "Fri, May 16"] },
+  { label: "Week 1", dates: ["Tue, Apr 21", "Fri, Apr 24"] },
+  { label: "Week 2", dates: ["Tue, Apr 28", "Fri, May 1"] },
+  { label: "Week 3", dates: ["Tue, May 5",  "Fri, May 8"] },
+  { label: "Week 4", dates: ["Tue, May 12", "Fri, May 15"] },
 ];
 const SLOT_IDS = WEEKS.flatMap((w, wi) => w.dates.map((_, di) => `${wi}-${di}`));
 
@@ -209,3 +209,4 @@ loadSlots();
 </script>
 </body>
 </html>
+
